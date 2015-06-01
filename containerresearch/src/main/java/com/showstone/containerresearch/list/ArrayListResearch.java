@@ -1,15 +1,13 @@
 package com.showstone.containerresearch.list;
 
 import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
 
 public class ArrayListResearch {
 	
 	public static void main(String[] args) {
 		long startTime = System.currentTimeMillis();
 		for(int i=0;i<100000;i++){
-			ArrayList list = new ArrayList();
+			ArrayList<String> list = new ArrayList<String>();
 			for(int num=0;num<1000;num++){
 				list.add("object");
 			}
@@ -17,7 +15,7 @@ public class ArrayListResearch {
 		System.out.println("ÓÃÊ±:"+ (System.currentTimeMillis()-startTime)+"ºÁÃë");
 		startTime = System.currentTimeMillis();
 		for(int i=0;i<100000;i++){
-			ArrayList list = new ArrayList(2000);
+			ArrayList<String> list = new ArrayList<String>(2000);
 			for(int num=0;num<1000;num++){
 				list.add("object");
 			}
