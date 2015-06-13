@@ -12,7 +12,7 @@ public class ArrayListResearch {
 				list.add("object");
 			}
 		}
-		System.out.println("用时:"+ (System.currentTimeMillis()-startTime)+"毫秒");
+		System.out.println("鐢ㄦ椂:"+ (System.currentTimeMillis()-startTime)+"姣");
 		startTime = System.currentTimeMillis();
 		for(int i=0;i<100000;i++){
 			ArrayList<String> list = new ArrayList<String>(2000);
@@ -20,7 +20,7 @@ public class ArrayListResearch {
 				list.add("object");
 			}
 		}
-		System.out.println("用时:"+ (System.currentTimeMillis()-startTime)+"毫秒");
+		System.out.println("鐢ㄦ椂:"+ (System.currentTimeMillis()-startTime)+"姣");
 	}
 	
 }

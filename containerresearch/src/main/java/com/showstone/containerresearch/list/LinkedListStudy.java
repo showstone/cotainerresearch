@@ -13,10 +13,10 @@ public class LinkedListStudy {
 		for(int idx=0;idx<10000000;idx++){
 			ls.add(idx+"");
 		}
-		System.out.println("Éú³ÉÓÃÊ±£º" + (System.currentTimeMillis()-startTime));
+		System.out.println("ç”Ÿæˆç”¨æ—¶ï¼š" + (System.currentTimeMillis()-startTime));
 		startTime = System.currentTimeMillis();
 		ls.get(50000);
-		System.out.println("²éÑ¯ÓÃÊ±£º" + (System.currentTimeMillis()-startTime));
+		System.out.println("æŸ¥è¯¢ç”¨æ—¶ï¼š" + (System.currentTimeMillis()-startTime));
 		
 		System.out.println("-----------------");
 		ls = new ArrayList<String>();
@@ -24,9 +24,9 @@ public class LinkedListStudy {
 		for(int idx=0;idx<10000000;idx++){
 			ls.add(idx+"");
 		}
-		System.out.println("Éú³ÉÓÃÊ±£º" + (System.currentTimeMillis()-startTime));
+		System.out.println("ç”Ÿæˆç”¨æ—¶ï¼š" + (System.currentTimeMillis()-startTime));
 		startTime = System.currentTimeMillis();
 		ls.get(50000);
-		System.out.println("²éÑ¯ÓÃÊ±£º" + (System.currentTimeMillis()-startTime));
+		System.out.println("æŸ¥è¯¢ç”¨æ—¶ï¼š" + (System.currentTimeMillis()-startTime));
 	}
 }
