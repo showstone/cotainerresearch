@@ -29,4 +29,6 @@ public class LinkedListStudy {
 		ls.get(50000);
 		System.out.println("查询用时：" + (System.currentTimeMillis()-startTime));
 	}
+	
+	
 }
